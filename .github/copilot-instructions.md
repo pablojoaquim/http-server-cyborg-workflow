@@ -3,8 +3,9 @@
 ## Project context
 - Language: C++17
 - Platform: Linux on WSL2 (POSIX sockets)
-- Build: CMake
+- Build: Makefile (no cmake, no IDE project files)
 - Goal: concurrent HTTP server with GET/POST behavior as defined in SDD and backlog
+- Run using WSL2 Ubuntu terminal, test with `curl` from Windows or WSL2
 
 ## Hard constraints
 - Use STL + POSIX socket API only
